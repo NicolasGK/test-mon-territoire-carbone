@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "shortuct icon" href="images/MEOSS-picto-blanc.png">
+    <title>Mon territoire</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-MC">
+          <a href="Index.html"><img src="Images/Logo_Meo-Carbon_blanc_picto.webp" alt="Logo MEO-Carbon"></a>
+        </div>
+        <h1 class="title-big"><a href="Index.html"><span class="title-big1">Mon territoire<br><span class="title-big2">carbone</a></h1>
+        <nav class="header-nav"> 
+    <!-- Menu déroulant -->
+          <a href="Index.html" title="Accueil">Accueil</a>
+          <a href="Mon_territoire.html" title="Mon territoire">Mon territoire</a>
+          <a href="Nos_offres.html" title="Nos offres">Nos offres</a>
+          <a href="Help.html" title="Help">Help</a>
+          <a href="Contact.html" title="Contact">Contact</a>
+        </nav> 
+    </header>
+      <h2 class="contact">Nous contacter</h2>
+      <hr class="hr-contact" color="lightgrey" width="50%" align="left">
+  <section class="formulaire">
+    <form action="Contact.html">
+        <legend><span class="title-form1">Mon territoire</span><br><span class="title-form2">carbone</span></legend>
+        <legend class="legend-2"><i>Ce formulaire s'adresse uniquement aux professionnels</i></legend>
+        <div class="form-nom">
+          <label for="nameinput">Nom*</label>
+          <input type="text" name="name" id="nameinput" required autofocus>
+        </div>
+        <div class="form-prenom">
+          <label for="firstnameinput">Prénom*</label>
+          <input type="text" name="firstname" id="firstnameinput" required>
+        </div>
+        <div class="form-mail">
+          <label for="mailinput">Email*</label>
+          <input type="email" name="mail" id="mailinput" required>
+        </div>
+        <div class="form-tel">
+          <label for="phoneinput">Téléphone*</label>
+          <input type="number" name="phone" id="phoneinput" required>
+        </div>
+        <div class="form-territoire">
+          <label for="mapinput">Territoire*</label>
+          <input type="text" name="map" id="mapinput" placeholder="Communauté de commune... Ville de..." required>
+        </div>
+        <div class="form-choix">
+          <label id="offer-choice">L'offre qui m'intéresse*</label>
+          <select name="offer" id="offer-choice">
+            <option value="g">Offre GOLD</option>
+            <option value="s">Offre SILVER</option>
+            <option value="b">Offre BRONZE - GRATUIT</option>
+            <option value="n">Je ne sais pas</option>
+          </select>
+        </div>
+        <div class="form-message">
+          <label for="messageinput">Message</label>
+          <textarea name="message" id="messageinput" cols="30" rows="10" placeholder="Message..."></textarea>
+        </div>
+        <div class="soumission">
+          <input type="submit" value="Soumettre" class="soumettre">
+        </div>
+    </form>
+  </section>
+<!-- Footer -->
+<footer>
+  <div class="footer-info">
+    <h6>
+      <a href="Index.html" class="footer-mc">Mon territoire carbone</a>
+    </h6>
+    <p>
+        <a href="Contact" class="contact-footer">Contact@meoss.net</a>
+    </p>
+    <p>+33 6 85 13 64 84</p>
+  </div>
+  <div class="footer-map">
+    <h6 class="trouver">Où nous trouver ?</h6>
+    <ul>
+      <li>
+        <p>Bâtiment Socrate</p>
+      </li>
+      <li>
+        <p>23 Boulevard Victor Hugo</p>
+      </li>
+      <li>
+        <p>31770 COLOMIERS</p>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-pages">
+    <H6 class="nos-pages">Nos pages</H6>
+    <ul>
+        <li>
+          <a href="Index.html" title="Accueil">Accueil</a>
+        </li>
+        <li>
+          <a href="Mon_territoire.html" title="Mon territoire">Mon territoire</a>
+        </li>
+        <li>
+          <a href="Nos_offres.html" title="Nos offres">Nos offres</a>
+        </li>
+        <li>
+          <a href="Help.html" title="Help">Help</a>
+        </li>
+        <li>
+          <a href="Contact.html" title="Contact">Contact</a>
+        </li>
+  </div>
+  <div class="footer-col">
+    <h6><strong>Suivez-nous</strong></h6>
+    <div class="social-links">
+      <a href="https://twitter.com/MEOSS_Space" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/company/meoss/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</footer>
+<div class="copyright">© - MEOSS 2022 Tous droits réservés</div>
+</body>
+</html>
