@@ -99,16 +99,34 @@ body {
     width: 95vw;
     margin-right: 0;
     padding-top: 3em;
-    padding-left: 1em;
+    padding-left: 0em;
 }
 
 .plein-ecran{
     text-align: center;
+    margin-top: 20px;
+}
+
+.plein-ecran a{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #275C62;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.plein-ecran a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #50BEA8;
+    padding: 10px 20px;
+    border-radius: 30px;
 }
 
 .carte {
     text-align: center;
-    width: 95vw;
+    width: 100vw;
 }
 
 footer {
