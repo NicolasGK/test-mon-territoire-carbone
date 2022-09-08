@@ -2,7 +2,7 @@ body {
     height: auto;
     background:
         linear-gradient(to bottom, #222222b6, #222222b5, #222222b4),
-        center top  url("images/Foret-meo-carbon-background.webp");
+        center top  url("Images/Foret-meo-carbon-background.webp");
     margin: 0px;
     z-index : 1;
 }
