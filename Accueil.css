@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     height: auto;
     background:
@@ -75,9 +79,10 @@ body {
 
 .header-nav a {
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 40px;
     color: #fff;
     position: relative;
+    font-size: 20px;
 }
 
 .header-nav a:hover {
@@ -165,13 +170,13 @@ p {
     justify-content: space-evenly;
     flex-flow: row wrap;
     margin-top: 10em;
-    margin-bottom: 150px;
+    margin-bottom: -75px;
 }
 
 .produit{
     background-color: #fff;
-    height: 800px;
-    font-family: "centurygothic";
+    height: 1000px;
+    font-family: "dosis";
     color: #264653;
     font-size: 1.5em;
     margin-top: 200px;
@@ -180,7 +185,7 @@ p {
     z-index: 1;
 }
 
-.produit h2 {
+/*.produit h2 {
     display: flex;
     justify-content: center;
     padding-top: 1em;
@@ -303,6 +308,43 @@ p {
 
 .custom-shape-divider-top-1659364946 .shape-fill {
     fill: #FFFFFF;
+}*/
+
+.produit h2{
+    color: #222222;
+    padding: 80px 0 0 80px;
+    text-transform: uppercase;
+}
+
+.container-produit{
+    display: flex;
+    flex-direction: row;
+}
+
+.after-title-produit{
+    margin: 50px 0 0 80px;
+    transform: rotate(10deg);
+}
+
+.texte-produit h3{
+    color: #222222;
+    padding: 100px 0 0 80px;
+}
+
+.paragraph-produit{
+    color: grey;
+    padding: 0 100px 0 80px;
+    font-family: "dosis";
+    font-weight: 310;
+    text-align: justify;
+}
+
+.iframe-produit{
+    padding: 100px 200px 50px 50px;
+}
+
+.video-meo-carbon{
+    border-radius: 20px;
 }
 
 .rapport{
@@ -402,7 +444,7 @@ p {
   .container {
     border-bottom: 0px solid black;
   }
-  
+
   .brand-wheel {
     flex-direction: row;
     align-items: center;
