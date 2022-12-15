@@ -323,6 +323,28 @@ body {
     text-align: center;
 }
 
+.test-visualisation{
+    width: 1000px;
+}
+
+.flourish-embed, .flourish-photo-slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+}
+
+#fl-layout-wrapper{
+    padding: 0;
+    margin: 0;
+}
+
+.flourish-credit{
+    display: none;
+}
+
 footer {
     background-color: #222222;
     box-shadow: 0px 0px 10px 2px rgba(138, 138, 138, 0.745);
